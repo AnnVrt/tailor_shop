@@ -71,3 +71,64 @@ a {
     text-decoration: underline;
 
 }
+
+
+.header-section {
+    border-top: 10px solid #332d25;
+    background: url(images/bg-rock.jpg);
+}
+
+.h-box-inline-block {
+    display: inline-block;
+}
+.cxz {
+    width: 70%;
+}
+.cvb {
+    width: 30%;
+}
+.box-text-shop {
+    float: left;
+    width: 300px;
+}
+.text-title {
+    color: #8e7835;
+    font-family: Georgia;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.text-desc {
+    color: #736e5f;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.text-btn {
+    padding: 8px 17px;
+    color: #ffffff;
+    background-color: #736e5f;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    border: 0px;
+    border-radius: 7px;
+}
+
+
+.product-material-title {
+    color: #736e5f;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.prod-desc {
+    color: #736e5f;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
