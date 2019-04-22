@@ -13,6 +13,7 @@ a {
 }
 .all-wrapper {
     background-color: #000;
+    font-family: Georgia;
 }
 .content-width {
     width: 925px;
@@ -30,19 +31,15 @@ a {
 .main-title {
     margin: 0px;
     color: #534a2d;
-    font-family: Georgia;
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
 }
 .nav-list {
     display: flex;
-
 }
 .nav-link {
-    
     color: #736e5f;
-    font-family: Georgia;
     font-size: 16px;
     font-weight: 400;
     line-height: 33px;
@@ -69,7 +66,6 @@ a {
 .nav-link:active {
     color: #c9bb90;
     text-decoration: underline;
-
 }
 
 
@@ -77,58 +73,65 @@ a {
     border-top: 10px solid #332d25;
     background: url(images/bg-rock.jpg);
 }
-
 .h-box-inline-block {
     display: inline-block;
+    vertical-align: top;
 }
-.cxz {
+.inline-block-left {
     width: 70%;
 }
-.cvb {
+.inline-block-right {
     width: 30%;
 }
 .box-text-shop {
     float: left;
-    width: 300px;
+    width: 250px;
+    margin-right: 20px;
+    text-align: center;
+}
+.img-product {
+    margin-right: 10px;
+    margin-left: 20px;
 }
 .text-title {
     color: #8e7835;
-    font-family: Georgia;
     font-size: 34px;
     font-weight: 400;
     line-height: 48px;
 }
 .text-desc {
     color: #736e5f;
-    font-family: Georgia;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 .text-btn {
-    padding: 8px 17px;
+    margin-top: 20px;
+    padding: 0px 17px;
     color: #ffffff;
     background-color: #736e5f;
     font-family: Georgia;
     font-size: 14px;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 40px;
     border: 0px;
     border-radius: 7px;
 }
-
-
 .product-material-title {
+    margin-top: 5px;
     color: #736e5f;
-    font-family: Georgia;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
 .prod-desc {
     color: #736e5f;
-    font-family: Georgia;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
+
+/* HEADER END */
+
+/* MAIN START */
+
