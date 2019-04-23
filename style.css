@@ -135,3 +135,45 @@ a {
 
 /* MAIN START */
 
+.main {
+    background-image: url(images/bg-pattern.jpg);
+}
+.about-title {
+    margin-top: 0px;
+    color: #c9bb90;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.about-desc {
+    color: #8e7835;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.about-box {
+    float: left;
+    width: 170px;
+    padding: 20px;
+}
+.about-box::after {
+    /* not for last child */
+}
+.main-section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.about-box-title {
+    color: #736e5f;
+    font-family: "Arial MT";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-box-desc {
+    color: #736e5f;
+    font-size: 14px;
+}
