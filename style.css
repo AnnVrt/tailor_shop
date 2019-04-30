@@ -67,7 +67,10 @@ a {
     color: #c9bb90;
     text-decoration: underline;
 }
-
+.nav-link:hover {
+    color: #c9bb90;
+    text-decoration: underline;
+}
 
 .header-section {
     border-top: 10px solid #332d25;
@@ -136,7 +139,9 @@ a {
 /* MAIN START */
 
 .main {
+    border: 2px solid #000000;
     background-image: url(images/bg-pattern.jpg);
+    padding-bottom: 50px;
 }
 .section-float-about {
     float: left;
@@ -151,12 +156,13 @@ a {
     display: block;
     clear: both;
 }
-.main-section-title {
+.page-section-titles {
     margin-top: 0px;
     color: #c9bb90;
     font-size: 18px;
     font-weight: 400;
     line-height: 48px;
+    margin-bottom: 5px;
 }
 .about-desc {
     color: #8e7835;
@@ -172,6 +178,7 @@ a {
 .about-box:not(:last-child) {
     border-right: 1px solid #282725;
 }
+
 .about-box-title {
     color: #736e5f;
     font-family: "Arial MT";
@@ -213,3 +220,72 @@ a {
     letter-spacing: 0.35px;
 }
 /* MAIN END */
+
+/* FOOTER START */
+.footer {
+    background-image: url(images/bg-rock.jpg);
+}
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-column-gap: 43px;
+}
+.text-inf-dev {
+    color: #343434;
+    font-family: "Arial MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.services {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.footer-paragraph {
+    color: #736e5f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.links-in-text {
+    color: #736e5f;
+    text-decoration: underline;
+}
+.last-text-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text-inf-dev {
+    
+    grid-column-start: -1;
+}
+
+
+.social-list {
+    display: grid;
+    width: 121px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.footer-form {
+    padding-bottom: 20px;
+}
+.inp-btn-box {
+    height: 34px;
+}
+.inp-footer {
+    padding: 0px;
+    height: 100%;
+    border: 0px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.btn-email-go {
+    height: 100%;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    border: 0px;
+    background-color: #4b4946;
+}
